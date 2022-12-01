@@ -1,0 +1,57 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="author" content="Hemant Mahato, Achyut Thapa, Supriya Karki, Waheb Javed " />
+		<meta name="description" content="Home" />
+		<meta name="keywords" content="evaluation, scholarly, public service, college, faculty" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link href="project1.css" rel="stylesheet" type="text/css" />
+		
+		<script href="modernizr-1.5.js"></script>
+		<script>
+			function myFunction() {
+  				document.getElementById("f1").style.display = "block";
+			}
+</script>
+		<title>HOME</title>
+	</head>
+	<body>			
+		<div class="dropdown">
+  			<button>Menu</button>
+  			<div class="ddcnt">
+  				<ul>
+  					<li><a href="index.html" rel="first" target="_self">Home</a></li>
+    				<li><a href="teachingActivity.html" rel="next" target="_blank">Teaching Activity Evaluation</a></li>
+    				<li><a href="professionalActivity.html" rel="next" target="_blank">Scholarly / Professional Activity Evaluation</a></li>
+    				<li><a href="universityAndPublicService.html" rel="last" target="_blank">University and Public Service Evaluation</a></li>
+    			</ul>
+  			</div>
+		</div>
+		<div class="form1" style="width: 395px; height: 300px;">
+			<form name= "banner" id = "form" method="post">
+				<label for="bannerID" style="color: crimson;">Banner ID</label><br>
+				<input type="text" name="bannerID" maxlength="9" size="20" style="height: 30px;">
+				<input type="button" value="Submit" id="submit" onclick="myFunction()" style="color: blue; background-color: lightblue; text-decoration-style: bold; height: 30px;"></input>
+		   </form>
+		   <fieldset id="f1">
+		       <legend>Personal Information</legend>	
+			       <form name= "survey" id = "formA" method="post">
+				         <label for="name">Name&#42;</label><br>
+				         <input type="name" name="name" maxlength="50" size="50" placeholder="Enter your name"><br>
+				         <label for="rank">Rank&#42;</label><br>
+				         <input type="rank" name="rank" maxlength="50" size="50" placeholder="Enter your rank"><br>
+				         <label for="years">Years in Position&#42;</label><br>
+				         <input type="years" name="years" maxlength="2" size="50"><br>
+				         <label for="date">Date&#42;</label><br>
+				         <input type="date" name="date" maxlength="10" size="50"><br>
+				         <label for="period">Period covered this evaluation&#42;</label><br>
+				         <input type="period" name="period" maxlength="20" size="50"><br>
+				         <input type="submit" value="Submit" id="submit" style="color: blue; background-color: lightblue;  text-decoration-style: bold; height: 30px;"></input>
+			       </form>
+		   </fieldset>	
+		</div>
+		
+	</body>
+</html>

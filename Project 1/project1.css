@@ -1,0 +1,137 @@
+html { 
+  height:100%; 
+}
+body {
+  position:absolute; top:0; bottom:0; right:0; left:0;
+  background-color: offwhite;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+button{
+  background-color: rgb(66, 135, 245);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+}
+.ddcnt {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  z-index: 1;
+}
+.ddcnt a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.ddcnt a:hover {
+  background-color: #ddd; 
+  text-decoration-color: red;}
+
+.ddcnt a:visited {
+  color: darkorange;
+}
+
+.dropdown:hover .ddcnt {display: block;}
+
+.dropdown:hover .ddbtn {background-color: #3e8e41;}
+
+.bannerID {
+  float: right;
+  display: block;
+  left: 20%;
+  width: 500px;
+  height: 200px;
+  position: relative;
+  
+}
+#f1 {
+  display: none;
+}
+.form1 {
+  display: block;
+  position: absolute;
+  width: 395px;
+  height: 300px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+
+.form2 {
+  display: block;
+  padding: 50px;
+  margin: auto;
+  color: slategray;
+}
+label {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+input[type=text], input[name=class], input[name=semester], input[type=number], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+fieldset {
+  border: 1px solid;
+  border-color: rgb(66, 135, 245);
+}
+.selection2, .selection3 {
+  color: rgb(66, 135, 245);
+}
+.form2 input, textarea {
+  border: 2px solid;
+  border-color: rgb(227, 220, 32);
+}
+legend {
+  color: darkblue;
+}
+#formB{
+ border: 7px solid blue; 
+ width: 880px; 
+ background-color: blue; 
+ background-attachment: fixed;
+ display: block;
+ margin: auto;
+
+}
+.evaluation label{
+  border: 0px solid;
+  margin: 0px;
+  padding: 0px;
+  background-color: blue;
+}
+.evaluation input{
+  border: 1px solid;
+  margin: 1px;
+  padding: 1px;
+  height: 30px;
+}
+input[type=a]{
+  border: 0px 0px 1px 0px;
+}
+.browse{
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 0px;
+
+
+
+
